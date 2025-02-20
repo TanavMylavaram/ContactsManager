@@ -127,7 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ContactsManager.cpp" />
+    <ClCompile Include="contact.cpp" />
+    <ClCompile Include="ContactList.cpp" />
+    <ClCompile Include="ContactMenu.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="contact.h" />
+    <ClInclude Include="ContactList.h" />
+    <ClInclude Include="ContactMenu.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="person.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="contact_data.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
